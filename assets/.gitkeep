@@ -1,0 +1,4 @@
+# This file ensures the assets directory is tracked by git
+# Replace this with your actual image files:
+# - app-icon.png (512x512px)
+# - splash-background.png (1200x800px)

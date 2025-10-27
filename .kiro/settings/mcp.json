@@ -1,0 +1,28 @@
+{
+  "mcpServers": {
+    "devvit": {
+      "command": "npx",
+      "args": ["-y", "@devvit/mcp"],
+      "env": {
+        "FASTMCP_LOG_LEVEL": "ERROR"
+      },
+      "disabled": false,
+      "autoApprove": [
+        "devvit_search",
+        "devvit_logs"
+      ]
+    },
+    "web-search": {
+      "command": "uvx", 
+      "args": ["mcp-server-web-search@latest"],
+      "env": {
+        "FASTMCP_LOG_LEVEL": "ERROR"
+      },
+      "disabled": false,
+      "autoApprove": [
+        "web_search",
+        "get_page_content"
+      ]
+    }
+  }
+}

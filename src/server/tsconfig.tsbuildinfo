@@ -1,0 +1,1 @@
+{"root":["./index.ts","./vite.config.ts","./core/ai-knowledge-generator.ts","./core/config-service.ts","./core/content-discovery-service.ts","./core/content-safety-service.ts","./core/knowledge-verification-service.ts","./core/player-challenge-system.ts","./core/post.ts"],"errors":true,"version":"5.8.2"}
